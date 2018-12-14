@@ -48,23 +48,16 @@ class App(tk.Frame):
         self.widgets["last_name_label"] = tk.Label(self, text="Last Name:")
         self.widgets["last_name_entry"] = tk.Entry(self, textvariable=self.vars["last_name_variable"])
 
-        self.vars["months_names"] = [
-            "January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
-            "November", "December"
-        ]
         self.vars["dates"] = dict()
+        leap_year = {'January': 32, 'February': 30, 'March': 32, 'April': 31, 'May': 32, 'June': 31, 'July': 32,
+                     'August': 32, 'September': 31, 'October': 32, 'November': 31, 'December': 32}
+        normal_year = {'January': 32, 'February': 29, 'March': 32, 'April': 31, 'May': 32, 'June': 31, 'July': 32,
+                       'August': 32, 'September': 31, 'October': 32, 'November': 31, 'December': 32}
         for year in range(2000, 3001):
-            self.vars["dates"][year] = dict()
-            for month in range(len(self.vars["months_names"])):
-                if ((month % 2 == 1 and month < 6) or (month % 2 == 0 and month > 6)) and month != 1:
-                    self.vars["dates"][year][self.vars["months_names"][month]] = 31
-                elif (month % 2 == 0 and month < 6) or month >= 6:
-                    self.vars["dates"][year][self.vars["months_names"][month]] = 32
-                else:
-                    if year % 4 == 0 and (year % 100 != 0 or (year % 100 == 0 and year % 400 == 0)):
-                        self.vars["dates"][year][self.vars["months_names"][month]] = 30
-                    else:
-                        self.vars["dates"][year][self.vars["months_names"][month]] = 29
+            if year % 4 == 0 and (year % 100 != 0 or (year % 100 == 0 and year % 400 == 0)):
+                self.vars["dates"][year] = leap_year
+            else:
+                self.vars["dates"][year] = normal_year
         self.widgets["date_label"] = tk.Label(self, text="Date (d/m/y):")
         self.widgets["date_label"].place(x=0, y=0)
         self.widgets["day_spinbox"] = tk.Spinbox(
