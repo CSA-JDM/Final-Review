@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697f91e2-aeec-44d6-bc66-e5320c8839fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Final-Review.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Final-Review.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Final-Review.py" beforeDir="false" afterPath="$PROJECT_DIR$/Final-Review.py" afterDir="false" />
     </list>
@@ -14,29 +11,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1048528437">
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="128" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="128" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Final-Review.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="170">
+              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="n#!!doc" />
+                <element signature="e#70#1317#1" />
+                <element signature="e#1318#1338#0" expanded="true" />
+                <element signature="e#1378#6208#0" />
+                <element signature="e#1402#3466#0" />
+                <element signature="e#2610#2816#0" />
+                <element signature="e#2495#2713#0" />
+                <element signature="e#2522#2750#0" />
+                <element signature="e#2569#2789#0" />
+                <element signature="e#2596#2824#0" />
+                <element signature="e#4593#5670#0" />
+                <element signature="e#4610#4771#0" />
+                <element signature="e#4818#4897#0" />
+                <element signature="e#5048#5485#0" />
+                <element signature="e#5571#6010#0" />
+                <element signature="e#4657#5717#0" />
+                <element signature="e#4102#4608#0" />
+                <element signature="e#4137#4185#0" />
               </folding>
             </state>
           </provider>
@@ -46,9 +46,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -164,15 +162,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32838982" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3279503" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -187,23 +185,54 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1035">
+          <caret line="3615" column="8" selection-start-line="3615" selection-start-column="8" selection-end-line="3615" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
+          <first_editor />
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tkinter/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/final_review.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/final_review_file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Final-Review.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="170">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
           <folding>
             <element signature="n#!!doc" />
+            <element signature="e#70#1317#1" />
+            <element signature="e#1318#1338#0" expanded="true" />
+            <element signature="e#1378#6208#0" />
+            <element signature="e#1402#3466#0" />
+            <element signature="e#2610#2816#0" />
+            <element signature="e#2495#2713#0" />
+            <element signature="e#2522#2750#0" />
+            <element signature="e#2569#2789#0" />
+            <element signature="e#2596#2824#0" />
+            <element signature="e#4593#5670#0" />
+            <element signature="e#4610#4771#0" />
+            <element signature="e#4818#4897#0" />
+            <element signature="e#5048#5485#0" />
+            <element signature="e#5571#6010#0" />
+            <element signature="e#4657#5717#0" />
+            <element signature="e#4102#4608#0" />
+            <element signature="e#4137#4185#0" />
           </folding>
         </state>
       </provider>

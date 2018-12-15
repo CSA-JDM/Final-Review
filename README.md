@@ -1,3 +1,3 @@
 # Final Review
-# V0.0.1
-* Git initialization
+# V1.0.0
+* Initial release
